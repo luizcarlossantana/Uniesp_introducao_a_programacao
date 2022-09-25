@@ -7,7 +7,6 @@ d. Modifique sua lista, substitua os desistentes por novos convidados.
 e. Exiba um novo convite para cada pessoa que continua presente em sua lista.'''
 
 
-from xmlrpc.client import boolean
 
 
 lista = ['Faustao','Angelica','Danilo gentili','Jô','Neymar']
