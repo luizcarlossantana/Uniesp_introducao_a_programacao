@@ -9,6 +9,8 @@ e. Exiba um novo convite para cada pessoa que continua presente em sua lista.'''
 
 
 
+
+
 lista = ['Faustao','Angelica','Danilo gentili','Jô','Neymar']
 
 for convite in lista:
@@ -17,7 +19,7 @@ for convite in lista:
 #neymar e faustão não podem ir a festa 
 
 for convite in lista:
-    print(boolean( input(f'você pode ir a festa {convite} ?')))
+    print( input(f'você pode ir a festa {convite} ?'))
 
 print(f'Neymar e Faustão não pedem comparecer.')
     
