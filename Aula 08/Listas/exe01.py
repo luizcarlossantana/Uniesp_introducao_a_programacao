@@ -1,0 +1,8 @@
+a = int(input('digite um número para a '))
+b = int(input('digite um número para b '))
+c = int(input('digite um número para c '))
+delta = ((b*b)-4*a*c)
+x1 = (-b -(delta**(1/2)))/(2*a) 
+x2 = (-b +(delta**(1/2)))/(2*a) 
+print(x1)
+print(x2)
