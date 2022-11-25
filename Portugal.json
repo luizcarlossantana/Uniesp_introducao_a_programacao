@@ -1,0 +1,48 @@
+{
+    "Lisboa": {
+        "coord": {
+            "lon": -28.7,
+            "lat": 32.6333
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 295.32,
+            "feels_like": 295.73,
+            "temp_min": 295.32,
+            "temp_max": 295.32,
+            "pressure": 1018,
+            "humidity": 82,
+            "sea_level": 1018,
+            "grnd_level": 1018
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 9.13,
+            "deg": 213,
+            "gust": 10.65
+        },
+        "rain": {
+            "1h": 0.54
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1669407028,
+        "sys": {
+            "sunrise": 1669365227,
+            "sunset": 1669402208
+        },
+        "timezone": -7200,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    }
+}

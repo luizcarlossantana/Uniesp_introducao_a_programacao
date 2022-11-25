@@ -1,0 +1,48 @@
+{
+    "Roma": {
+        "coord": {
+            "lon": 12.4942,
+            "lat": 41.8905
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 284.91,
+            "feels_like": 284.2,
+            "temp_min": 284.16,
+            "temp_max": 285.61,
+            "pressure": 1016,
+            "humidity": 79
+        },
+        "visibility": 7000,
+        "wind": {
+            "speed": 6.17,
+            "deg": 150
+        },
+        "rain": {
+            "1h": 0.17
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1669407030,
+        "sys": {
+            "type": 2,
+            "id": 2000926,
+            "country": "IT",
+            "sunrise": 1669356687,
+            "sunset": 1669390970
+        },
+        "timezone": 3600,
+        "id": 3169070,
+        "name": "Rome",
+        "cod": 200
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Londres": {
+        "coord": {
+            "lon": -1.1743,
+            "lat": 52.3555
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 280.74,
+            "feels_like": 278.08,
+            "temp_min": 279.57,
+            "temp_max": 282.09,
+            "pressure": 1020,
+            "humidity": 95
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.23,
+            "deg": 224,
+            "gust": 10.66
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1669407027,
+        "sys": {
+            "type": 2,
+            "id": 2002461,
+            "country": "GB",
+            "sunrise": 1669362167,
+            "sunset": 1669392053
+        },
+        "timezone": 0,
+        "id": 2638978,
+        "name": "Rugby",
+        "cod": 200
+    }
+}

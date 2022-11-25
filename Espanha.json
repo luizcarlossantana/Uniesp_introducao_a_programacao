@@ -1,0 +1,45 @@
+{
+    "Barcelona": {
+        "coord": {
+            "lon": -3.7492,
+            "lat": 40.4637
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 282.33,
+            "feels_like": 281.82,
+            "temp_min": 278.7,
+            "temp_max": 284.42,
+            "pressure": 1015,
+            "humidity": 67
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.54,
+            "deg": 30
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1669407029,
+        "sys": {
+            "type": 2,
+            "id": 2005119,
+            "country": "ES",
+            "sunrise": 1669360355,
+            "sunset": 1669395101
+        },
+        "timezone": 3600,
+        "id": 3129827,
+        "name": "Aravaca",
+        "cod": 200
+    }
+}
