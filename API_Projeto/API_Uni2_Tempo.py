@@ -1,31 +1,33 @@
 from requests import get 
 from json import dumps
 
-API_KEY = '639d50780031bb94a42a33ddf2cee2d2'
+API_KEY = 'ee36882c690102a81263dbd91ceab3e4'
 dados = []
 
 while True:
-    opçao = input('digite uma opção:\n\
-              1 - Adicionar uma cidade na api\n\
-              2 - Ver as cidades adicionadas \n\
-              3 - Delete uma cidade \n\
-              0 - Para sair  \n\
-              \nDigite a opação: ')
+    opcao = input('\nEscolha uma opção:\n\
+\n1 - Adicionar uma cidade na API\n\
+2 - Ver as cidades adicionadas\n\
+3 - Delete uma cidade\n\
+4 - Gerar dados das cidades\n\
+0 - Para sair\n\
+\nDigite a opção desejada: ')
     
-    if opçao == "1":
+    if opcao == "1":
 
-        cidade = str(input('digite o nome da cidade: '))
-        latitude = float(input('digite a latitude da cidade: '))
-        longitude = float(input('digite a longitude da cidade: '))
+        cidade = str(input('\nDigite o nome da cidade: '))
+        latitude = float(input('Digite a latitude da cidade: '))
+        longitude = float(input('Digite a longitude da cidade: '))
         lista_api = [cidade,latitude,longitude]
         dados.append(lista_api)
     
-    elif opçao == "2":
+    elif opcao == "2":
+        
         print(dados)
     
-    elif opçao == "3":
+    elif opcao == "3":
         
-        item = input("Digite o item que será removido:")
+        item = input("Digite a cidade que será removida: ")
 
         for i in dados:
             for x in i:
@@ -35,27 +37,24 @@ while True:
                     indice_item = dados.index(i)
                     del dados[indice_item]
 
-        print(indice_item)
-
-    elif opçao == "0":
-        break
-    else:
-        print('deu ruim')
-
-for informaçao in dados:    
-   
-    url = f'https://api.openweathermap.org/data/2.5/weather?lat={informaçao[1]}&lon={informaçao[2]}&appid={API_KEY}'   
-    resposta = get(url)
-   
-
-    if resposta.status_code == 200:
-        print(f'Criando arquivo: {informaçao[0]}.json')
-        with open(informaçao[0] + '.json', 'w', encoding='UTF-8') as arquivo:
-            dadosjson = dumps({informaçao[0]:resposta.json()}, indent=4) 
-            arquivo.write(dadosjson)
-    else:
-        print(f'Ocorreu um erro ao consultar as informações para: {informaçao}')
-
-
+        print(f'A cidade {item} foi deletada.')
         
-
+    elif opcao == "4":
+        for informacao in dados:
+        
+            url = f'https://api.openweathermap.org/data/2.5/weather?lat={informacao[1]}&lon={informacao[2]}&appid={API_KEY}'   
+            resposta = get(url)
+    
+            if resposta.status_code == 200:
+                print(f'Criando arquivo: {informacao[0]}.json')
+                with open(informacao[0] + '.json', 'w', encoding='UTF-8') as arquivo:
+                    dadosjson = dumps({informacao[0]:resposta.json()}, indent=4) 
+                    arquivo.write(dadosjson)
+            else:
+                print(f'Ocorreu um erro ao consultar as informações para: {informacao}')
+                               
+    elif opcao == "0":
+        break
+    
+    else:
+        print('Opção inválida.')
