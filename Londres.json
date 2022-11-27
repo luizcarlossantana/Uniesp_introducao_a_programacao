@@ -1,0 +1,45 @@
+{
+    "-1.1743": {
+        "coord": {
+            "lon": 52.3555,
+            "lat": -1.1743
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 300.33,
+            "feels_like": 302.31,
+            "temp_min": 300.33,
+            "temp_max": 300.33,
+            "pressure": 1010,
+            "humidity": 70,
+            "sea_level": 1010,
+            "grnd_level": 1010
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.67,
+            "deg": 294,
+            "gust": 4.87
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1669568682,
+        "sys": {
+            "sunrise": 1669515176,
+            "sunset": 1669559020
+        },
+        "timezone": 10800,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    }
+}

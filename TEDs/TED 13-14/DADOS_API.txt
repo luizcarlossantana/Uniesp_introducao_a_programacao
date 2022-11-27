@@ -1,5 +1,6 @@
-Portugal, Lisboa, -28.7, 32.63333
-Espanha, Barcelona, -3.7492, 40.4637
+Portugal, Lisboa, -28.7, 
+Espanha, Barcelona, -3.7492, 
+
 Italia, Roma, 12.4942, 41.8905
 França, Paris, -47.4197, -20.5418
 Inglaterra, Londres, -1.1743, 52.3555

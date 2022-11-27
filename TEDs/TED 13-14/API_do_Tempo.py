@@ -12,7 +12,7 @@ arquivo = input("Informe o arquivo com os dados que deve ser consultados: ")
 dados = []
 with open(arquivo , 'r', encoding='UTF-8') as x:
     for i in x.readlines():
-        print(i)
+
         i = i.replace('\n','').replace(' ','') 
         formato1 = i.split(',') 
         dados.append(formato1) 
