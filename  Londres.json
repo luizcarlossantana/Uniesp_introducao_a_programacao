@@ -1,0 +1,45 @@
+{
+    " Londres": {
+        "coord": {
+            "lon": 52.3555,
+            "lat": -1.1743
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 300.12,
+            "feels_like": 302.04,
+            "temp_min": 300.12,
+            "temp_max": 300.12,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 1010
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.46,
+            "deg": 293,
+            "gust": 5.62
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1669582564,
+        "sys": {
+            "sunrise": 1669515176,
+            "sunset": 1669559020
+        },
+        "timezone": 10800,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    }
+}

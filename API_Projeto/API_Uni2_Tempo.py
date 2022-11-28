@@ -1,3 +1,16 @@
+'''
+Integrantes:
+
+Luiz Carlos S. Andrade 
+Hgo Anisio
+Thiago Henrique
+Jessica Furtado
+Waldir Pontual
+'''
+
+
+
+
 from requests import get 
 from json import dumps
 
